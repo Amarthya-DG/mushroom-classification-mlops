@@ -1,0 +1,89 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.coverage.*
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# MLflow
+mlruns/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Large files
+*.parquet
+*.feather
+*.pickle
+*.pkl
+*.h5
+*.hdf5
+*.zip
+*.tar
+*.gz
+*.rar
+
+# Logs
+logs/
+*.log
+
+# Local configuration
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Documentation
+docs/
+README.md
+LICENSE
+CHANGELOG.md
+
+# Models directory (except .gitkeep)
+models/*
+!models/.gitkeep 
