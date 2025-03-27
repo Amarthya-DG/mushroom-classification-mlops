@@ -23,7 +23,7 @@ A complete MLOps pipeline for mushroom classification using FastAPI, MLflow, and
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/mushroom-classification-mlops.git
+git clone https://github.com/Amarthya-DG/mushroom-classification-mlops.git
 cd mushroom-classification-mlops
 ```
 
